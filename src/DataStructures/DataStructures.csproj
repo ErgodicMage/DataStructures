@@ -4,6 +4,34 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Version>0.1.0</Version>
+    <AssemblyName>ErogodicMage.DataStructures</AssemblyName>
+    <RootNamespace>ErgodicMage.DataStructures</RootNamespace>
+
+    <Title>ErgodicMage.DataStructures</Title>
+    <PackageId>ErgodicMage.DataStructures</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Authors>Ergodic Mage</Authors>
+    <Description>EM's common data structures</Description>
+    <PackageTags>Data Structures</PackageTags>
+    <RepositoryUrl>https://github.com/ErgodicMage/DataStructures</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>ErgodicMage.jpg</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <!--<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>-->
+    <DebugType>embedded</DebugType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\ErgodicMage.jpg" Pack="true" PackagePath="" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
 
 </Project>
