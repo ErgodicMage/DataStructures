@@ -7,4 +7,7 @@
   <Folder Name="/src/">
     <Project Path="src/DataStructures/DataStructures.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DataStructuresTests/DataStructuresTests.csproj" Id="74aa8b30-0c5f-46b0-bc13-33d15f91410f" />
+  </Folder>
 </Solution>
